@@ -17,7 +17,7 @@ Book:
 ## BACKEND ROUTE TABLE
 | url | method | action |
 |-----|--------|--------|
-| /books | get | getting all the bookmarks (index)||
-| /books | post | posting a new bookmark (create) |
-| /books/:id | put | updating a bookmark (update) |
-| /books/:id | delete | delete the bookmark (destroy) |
+| /books | get | getting all the books (index)||
+| /books | post | posting a new book (create) |
+| /books/:id | put | updating a book (update) |
+| /books/:id | delete | delete the book (destroy) |

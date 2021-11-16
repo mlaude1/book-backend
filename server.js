@@ -30,6 +30,7 @@ const BookSchema = new mongoose.Schema({
   author: String,
   genre: String,
   description: String,
+  coverImage: String,
 })
 
 const Book = mongoose.model("Book", BookSchema)

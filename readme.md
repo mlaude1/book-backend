@@ -11,7 +11,9 @@
 ## MODELS
 Book:
 - title: string
-- url: string
+- author: string
+- genre: string
+- coverimg: string
 - description: string
 
 ## BACKEND ROUTE TABLE

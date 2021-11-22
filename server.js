@@ -31,6 +31,8 @@ const BookSchema = new mongoose.Schema({
   genre: String,
   description: String,
   coverImage: String,
+  thisIsNew: String,
+  starRating: Number
 })
 
 const Book = mongoose.model("Book", BookSchema)

@@ -31,7 +31,6 @@ const BookSchema = new mongoose.Schema({
   genre: String,
   description: String,
   coverImage: String,
-  thisIsNew: String,
   starRating: Number
 })
 

@@ -15,6 +15,7 @@ Book:
 - genre: string
 - coverimg: string
 - description: string
+- star rating: number
 
 ## BACKEND ROUTE TABLE
 | url | method | action |
